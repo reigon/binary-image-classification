@@ -2,11 +2,6 @@
 
 This project trains and tests pretrained CNN models for any given binary image classification task.
 
-## Dataset
-
-- **Images**: Images should be named sequentially from `1.jpg` to `x.jpg` where 'x' is the number of images.
-- **Labels**: Binary classification labels should be provided in the `labels.csv` file.
-
 ## Model: VGG16  
 
 VGG16 is a convolutional neural network, known for its depth and its small convolutional filter size. We have added a linear layer (4096, 1) after VGG16 to make binary classification. 
@@ -45,8 +40,9 @@ VGG16 is a convolutional neural network, known for its depth and its small convo
 - **Evaluation**: After each epoch, the model's performance is assessed on a validation set.
 
 ## Usage
-1. Create a `data` folder in the root directory
-2. Ensure you have the image dataset in the `data` folder and the labels in `data/labels.csv`.
-3. Run the provided Python script to train and evaluate the VGG16 model image classification task.
-4. After training, the model weights will be saved in `vgg16_trained.pth` for future inference tasks.
+1. Install dependencies listed in requirements.txt
+2. On paths.py, enter the paths to your dataset.
+3. Images should be named sequentially from `1.jpg` to `n.jpg` where 'n' is the number of images. Labels of the images should be ordered accordingly.
+4. Run the provided Python script to train and evaluate the model.
+5. After training, new model weights will be saved in `{model_name}_trained.pth` for future inference tasks.
 
