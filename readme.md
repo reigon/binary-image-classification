@@ -40,8 +40,8 @@ VGG16 is a convolutional neural network, known for its depth and its small convo
 - **Evaluation**: After each epoch, the model's performance is assessed on a validation set.
 
 ## Usage
-1. Install dependencies listed in requirements.txt
-2. On paths.py, enter the paths to your dataset.
+1. Install dependencies listed in `requirements.txt`
+2. On `paths.py`, enter the paths to your dataset.
 3. Images should be named sequentially from `1.jpg` to `n.jpg` where 'n' is the number of images. Labels of the images should be ordered accordingly.
 4. Run the provided Python script to train and evaluate the model.
 5. After training, new model weights will be saved in `{model_name}_trained.pth` for future inference tasks.
