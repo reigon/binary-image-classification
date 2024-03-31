@@ -4,7 +4,7 @@ This project trains and tests pretrained CNN models for any given binary image c
 
 ## Model: VGG16  
 
-VGG16 is a convolutional neural network, known for its depth and its small convolutional filter size. We have added a linear layer (4096, 1) after VGG16 to make binary classification. 
+VGG16 is a convolutional neural network, known for its depth and its small convolutional filter size. I have added a linear layer (4096, 1) after VGG16 to make binary classification. 
 
 ### Features of VGG16:
 
@@ -22,7 +22,7 @@ VGG16 is a convolutional neural network, known for its depth and its small convo
 
 ## Model: ResNet18 
 
-VGG16 is a convolutional neural network, known for its depth and its small convolutional filter size. We have added a linear layer (4096, 1) after VGG16 to make binary classification. 
+VGG16 is a convolutional neural network, known for its depth and its small convolutional filter size. I have added a linear layer (4096, 1) after VGG16 to make binary classification. 
 
 ### Features of ResNet18:
 
@@ -44,5 +44,5 @@ VGG16 is a convolutional neural network, known for its depth and its small convo
 2. On `paths.py`, enter the paths to your dataset.
 3. Images should be named sequentially from `1.jpg` to `n.jpg` where 'n' is the number of images. Labels of the images should be ordered accordingly.
 4. Run the provided Python script to train and evaluate the model.
-5. After training, new model weights will be saved in `{model_name}_trained.pth` for future inference tasks.
+5. After training, new model Iights will be saved in `{model_name}_trained.pth` for future inference tasks.
 
