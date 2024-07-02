@@ -22,8 +22,6 @@ VGG16 is a convolutional neural network, known for its depth and its small convo
 
 ## Model: ResNet18 
 
-VGG16 is a convolutional neural network, known for its depth and its small convolutional filter size. I have added a linear layer (4096, 1) after VGG16 to make binary classification. 
-
 ### Features of ResNet18:
 
 - **Depth**: Contains 18 layers in total, which includes convolutional layers and fully connected layers.
